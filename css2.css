@@ -1,0 +1,64 @@
+body{background-color: #F5F5F5;height: 700px;}
+header{background-color:#FFBE00;height: 90px;margin:0px;display: flex;
+    padding: 15px 72px}
+   
+img{width: 90px;margin-left: 230px;}
+header p{height: 30px;
+    background-color: #704500;color: aliceblue;
+    /* background-color: #704500; */
+    -webkit-border-radius:32px;
+    padding: 7px 41px;
+    width: 376px;
+    border: 3px white;
+   
+   text-align: right;
+   font-size: 20px;
+   margin-top: 20px;
+   margin-right: -545px;
+}
+header input{    background-color:#FFBE00;
+    height: 38px;
+    width: 200px;
+    color: #704500;
+    text-align: left;
+    font-size: 15px;
+    -webkit-border-radius: 32px;
+    border: 1px white;
+    margin-top: 23px;
+    margin-left:90px;
+    padding: 0px 19px;
+}
+
+nav{    padding: 13px 624px;
+    margin-top: -1px;
+    
+}
+
+nav a{color: blue;
+    text-decoration: none;}
+section dl{
+    padding: 12px 143px;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    margin-top: 13px;
+    background-color: #96c9f8;}
+    section{  background-color: white;}
+
+    section tr{     list-style: none;
+        display: grid;
+        grid-template-columns: repeat(4,299px);
+        padding: 12px 143px;
+        margin-top: 68px;
+        padding: 23px 61px;
+        margin-top: -15px;
+      
+    }
+    section table a{
+        color: blue;
+        margin-left:10px;
+        text-decoration:none;
+    }
+
+     
+
+

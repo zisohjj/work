@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css2.css">
+</head>
+
+<body>
+    <header>
+        <img src="./img/timg.jpeg" alt="">
+
+        <p>搜索</p>
+        <input type="text" value="搜索商家,美食">
+    </header>
+    <nav>
+        <a href="">我的购物车</a>
+    </nav>
+    <section>
+        <table id="tad">
+            <dl>
+                <dd>全选
+                    <input type="checkbox" id="q" onclick="chooseAll(this)">
+                </dd>
+
+                <dd>菜品</dd>
+                <dd>价格（元/份）</dd>
+                <dd>操作</dd>
+
+            </dl>
+
+            <tr>
+                <th>
+                    <input type="checkbox" name="cox" onclick="ock()">
+                </th>
+                <th>
+                    杨记小厨
+                </th>
+                <th id="th1" >
+                    17.5
+                </th>
+
+                <th>
+                    <input type="button" value="删除" id="tad" onclick="clearStudents(this)">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="checkbox" name="cox" onclick="ock()">
+                </th>
+                <th>
+                    黄焖鸡
+                </th>
+                <th id="th1" >
+                    20 
+                </th>
+                <th>
+                    <input type="button" value="删除" id="tad" onclick="clearStudents(this)">
+                </th>
+            </tr>
+
+            
+            <tr>
+                <th>
+                    <input type="button" value="删除选中" id="w" onclick="zck()">
+                </th>
+                <th>
+                    
+                </th>
+                <th>
+
+                </th>
+                <th>
+                    <p id="s"></p>
+                    <button id="jie" onclick="olk()">结算</button>
+                   <!-- <input type="button" > -->
+                </th>
+            
+            </tr>
+       
+            <tr>
+                <th>
+                    <a href="./intext.html">您继续点餐</a>
+                   
+                </th>
+            </tr>
+           
+        </table>
+        
+    </section>
+    <script src="is2.js"></script>
+</body>
+
+</html>
